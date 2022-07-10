@@ -1,0 +1,60 @@
+.fieldWrapper {
+  width: 40%;
+  min-height: 50px;
+  margin: 20px 0 40px;
+}
+
+.fieldWrapper input {
+  width: 90%;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 10px 0 0 10px;
+  font-size: 18px;
+  outline: none;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: hsl(0, 0%, 59%);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: hsl(0, 0%, 59%);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: hsl(0, 0%, 59%);
+}
+
+.fieldWrapper button {
+  background: #000;
+  border: none;
+  padding: 18px;
+  width: 10%;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.fieldWrapper button:hover {
+  background: hsl(0, 0%, 17%);
+}
+
+@media (max-width: 768px) {
+  .fieldWrapper {
+    width: 80%;
+    min-height: 50px;
+    margin: 20px 0 40px;
+  }
+
+  .fieldWrapper input {
+    width: 85%;
+  }
+
+  .fieldWrapper button {
+    width: 15%;
+  }
+}
