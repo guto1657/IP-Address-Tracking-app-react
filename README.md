@@ -7,7 +7,8 @@ realistic projects.
 
 ## screenshot
 
-![ipaddresstrackerapp]()
+![ipaddresstrackerapp](https://user-images.githubusercontent.com/70277574/178146938-ac7c6bf7-0b0d-48d8-b898-38778125ab4d.png)
+
 
 ## The challenge
 
@@ -22,7 +23,7 @@ Users should be able to:
 
 ## Deploying
 
-- [Vercel]()
+- [Vercel](https://ip-address-tracking-app-react.vercel.app/)
 
 ## Tools and technologies
 
